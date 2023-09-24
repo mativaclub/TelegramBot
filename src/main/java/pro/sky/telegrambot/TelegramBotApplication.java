@@ -6,7 +6,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-// dostup k schedule
+// access to schedule
 public class TelegramBotApplication {
     public static void main(String[] args) {
         SpringApplication.run(TelegramBotApplication.class, args);

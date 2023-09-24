@@ -13,17 +13,12 @@ import java.util.Objects;
 public class NotificationTask {
 
     //this field will be unique and later will be easy to find it
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     //how will be generated ID, starting from id 1 for each table
     @Id
     private Long id;
     private Long idChat;
     private String notifyText;
-
-
-
-
-
 
     private LocalDateTime dateTime;
 
